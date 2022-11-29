@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* *** Section One First Column *** */
+#fisrtColumn {
+  width: 700px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*  *** first row from section one (first column) *** */
+#firstRow {
+  width: 700px;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+}
+
+#firstRow div {
+  height: 100px;
+  border-style: solid;
+  border-color: black;
+}
+#firstRow div:nth-of-type(1) {
+  width: 200px;
+  background-color: rgb(198, 222, 214);
+  border-width: 0 5px 5px 0;
+}
+#firstRow div:nth-of-type(2) {
+  width: 300px;
+  background-color: azure;
+  border-width: 0 5px 5px 5px;
+}
+#firstRow div:nth-of-type(3) {
+  width: 200px;
+  background-color: rgba(211, 153, 44, 0.701);
+  border-width: 0 5px 5px 5px;
+}
+
+/* *** Block in first column Section One *** */
+#block {
+  width: 700px;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+}
+
+/*  *** Left Column from Section One *** */
+#leftBlock {
+  display: flex;
+  flex-direction: column;
+}
+#leftBlock div {
+  width: 100px;
+  border-style: solid;
+  border-color: black;
+}
+
+#leftBlock div:nth-of-type(1) {
+  height: 200px;
+  background-color: rgba(218, 206, 206, 0.844);
+  border-width: 5px 5px 5px 0;
+}
+#leftBlock div:nth-of-type(2) {
+  height: 300px;
+  background-color: aliceblue;
+  border-width: 5px 5px 5px 0;
+}
+#leftBlock div:nth-of-type(3) {
+  height: 200px;
+  background-color: rgba(211, 153, 44, 0.701);
+  border-width: 5px 5px 0 0;
+}
+
+/* *** Right Column from Section One*** */
+#rightBlock {
+  width: 600px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* *** Part ONE from the right column Block *** */
+#rightBlock_One {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+#rightBlock_One #red {
+  width: 400px;
+  height: 400px;
+  border: 5px solid black;
+  background-color: red;
+}
+
+#rightBlock_One #nextToRed {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#nextToRed_One {
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  background-color: rgba(211, 153, 44, 0.701);
+}
+
+#nextToRed_Two {
+  display: flex;
+  flex-direction: row;
+}
+
+#nextToRed_Two div:nth-of-type(1) {
+  width: 100px;
+  height: 200px;
+  border: 5px solid black;
+  background-color: rgba(218, 206, 206, 0.844);
+}
+
+#nextToRed_Two div:nth-of-type(2) {
+  width: 100px;
+  height: 200px;
+  border: 5px solid black;
+  background-color: azure;
+}
+/* *** <!-- Part TWO from the right column - Block --> *** */
+#rightBlock_Two {
+  display: flex;
+  flex-direction: row;
+}
+
+/* *** <!-- Left Side from Part Two from Block  --> *** */
+
+#partTwo_Left {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+#partTwo_Left div {
+  border-style: solid;
+  border-color: black;
+}
+
+#partTwo_Left div:nth-of-type(1) {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-width: 5px;
+}
+
+#partTwo_Left div:nth-of-type(2) {
+  width: 200px;
+  height: 100px;
+  background-color: aliceblue;
+  border-width: 5px 5px 0 5px;
+}
+
+/*  *** <!-- Left Side from Part Two from Block  --> *** */
+#partTwo_Right {
+  display: flex;
+  flex-direction: column;
+}
+
+/*  *** <!--  Top Section --> *** */
+#Right_Top {
+  height: 250px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+}
+/* *** partTwo_Right_Top_Left *** */
+#Right_Top_Left {
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+#Right_Top_Left div {
+  border: 5px solid black;
+}
+
+#Right_Top_Left div:nth-of-type(1) {
+  width: 200px;
+  height: 100px;
+  background-color: aliceblue;
+}
+
+#Right_Top_Left div:nth-of-type(2) {
+  width: 200px;
+  height: 100px;
+  background-color: rgba(218, 206, 206, 0.844);
+}
+#Right_Top_Left div:nth-of-type(3) {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+}
+
+/* *** partTwo_Right_Top_Right *** */
+
+#Right_Top_Right {
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+#Right_Top_Right div {
+  border: 5px solid black;
+}
+#Right_Top_Right div:nth-of-type(1) {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(198, 222, 214);
+}
+
+#Right_Top_Right div:nth-of-type(2) {
+  width: 200px;
+  height: 150px;
+  background-color: rgb(25, 25, 104);
+}
+
+/* <!-- Bottom Section --> */
+
+#Right_Bottom {
+  width: 400px;
+  height: 50px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px 5px 0 5px;
+  background-color: aliceblue;
+}
+
+/* *** Section Two Second Column *** */
+#secondColumn {
+  width: 100px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+#secondColumn div {
+  border-style: solid;
+  border-color: black;
+}
+
+#secondColumn div:nth-of-type(1) {
+  width: 100px;
+  height: 600px;
+  background-color: antiquewhite;
+  border-width: 0 0 5px 5px;
+}
+#secondColumn div:nth-of-type(2) {
+  width: 100px;
+  height: 200px;
+  background-color: red;
+  border-width: 5px 0 0 5px;
+}
