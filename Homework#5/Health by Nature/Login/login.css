@@ -1,0 +1,110 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("login_pictures/8.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 90vh;
+}
+
+.container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.151);
+  padding: 15px;
+  border-radius: 5%;
+  margin-right: 300px;
+}
+
+.topHeader {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: white;
+}
+
+.buttonBox {
+  width: 150px;
+  margin: auto;
+  /* box-shadow: 0 0 20px 9px rgba(0, 0, 0, 0.527); */
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.521);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerBtn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  color: white;
+  text-decoration: none;
+}
+
+.socialIcons {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.socialIcons img {
+  width: 30px;
+  margin: 0 12px;
+  box-shadow: 0 0 20px 0 #fff;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+.submitBtn {
+  width: 90%;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 20px auto;
+  background: linear-gradient(to right, #449154, #265f30);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  color: white;
+}
+
+.checkBox {
+  margin: 30px 10px 30px 0;
+}
+
+label {
+  color: white;
+}

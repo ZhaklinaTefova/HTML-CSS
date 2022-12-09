@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;700&family=Sono:wght@400;500&family=Source+Sans+Pro:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <div class="container">
+        <!-- HEADER -->
+        <div class="topHeader">
+          <h3>Don't have account yet?</h3>
+          <div class="buttonBox">
+            <a href="../Register/register.html" class="registerBtn">Register</a>
+          </div>
+        </div>
+        <!-- social icons -->
+        <div class="socialIcons">
+          <img src="login_pictures/facebook-new.png" alt="fb-icon" />
+          <img src="login_pictures/google-logo.png" alt="gogl-icon=n" />
+          <img src="login_pictures/instagram-new.png" alt="insta-icon" />
+          <img src="login_pictures/twitter.png" alt="tweet-icon" />
+        </div>
+
+        <!-- FORM -->
+        <form class="inputGroup" action="">
+          <!-- the user ID input -->
+          <input
+            type="text"
+            class="inputField"
+            placeholder="User Id"
+            required
+          />
+          <!-- the user PASS input -->
+          <input
+            type="password"
+            class="inputField"
+            placeholder="Enter Password"
+            required
+          />
+          <!-- the check box -->
+          <div>
+            <input type="checkbox" id="checkBox" />
+            <label for="checkBox">Remember Password</label>
+          </div>
+          <button type="submit" class="submitBtn">Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
